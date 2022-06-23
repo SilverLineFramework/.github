@@ -27,7 +27,6 @@ Silverline is composed of an [orchestrator](https://github.com/SilverLineFramewo
 - [runtime-linux](https://github.com/SilverLineFramework/runtime-linux): linux-based WASM runtime.
     - [wasm-micro-runtime](https://github.com/SilverLineFramework/wasm-micro-runtime): fork of [WAMR](https://github.com/bytecodealliance/wasm-micro-runtime) adding per-module opcode tracking during interpreted execution
     - [paho.mqtt.c](https://github.com/SilverLineFramework/paho.mqtt.c): fork of the [Eclipse Paho C Client](https://github.com/eclipse/paho.mqtt.c) adding support for loopback
-
 - [runtime-micro](https://github.com/SilverLineFramework/runtime-micro): [Zephyr RTOS](https://www.zephyrproject.org/)-based WASM runtime for embedded devices.
 
 ### Programs
