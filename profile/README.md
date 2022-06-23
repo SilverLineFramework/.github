@@ -15,7 +15,14 @@ Figure 1 depicts the framework's scope: it spans off-perm cloud to an on-perm ed
 
 Silverline is composed of an [orchestrator](https://github.com/SilverLineFramework/orchestrator) and runtimes for different platforms ([linux runtime](https://github.com/SilverLineFramework/runtime-linux), [the zephyr micro runtime](https://github.com/SilverLineFramework/runtime-micro) and a [browser runtime](https://github.com/SilverLineFramework/runtime-browser)). We also maintain/develop other components such as a [fork of a message broker](https://github.com/SilverLineFramework/mosquitto-broker), [messaging libraries](https://github.com/SilverLineFramework/paho.mqtt.c), [benchmarks](https://github.com/SilverLineFramework/benchmarks), among others.
 
+### Services
+
 - [orchestrator](https://github.com/SilverLineFramework/orchestrator): SilverLine orchestrator
+- [mosquitto-broker](https://github.com/SilverLineFramework/mosquitto-broker): fork of the [Eclipse Mosquitto Broker](https://github.com/eclipse/mosquitto) with added monitoring capabilities.
+- [file-store](https://github.com/SilverLineFramework/file-store): SilverLine file store for serving and compiling WebAssembly programs
+- [prediction](https://github.com/SilverLineFramework/prediction): Resource prediction algorithm
+
+### Runtimes
 
 - [runtime-linux](https://github.com/SilverLineFramework/runtime-linux): linux-based WASM runtime.
     - [wasm-micro-runtime](https://github.com/SilverLineFramework/wasm-micro-runtime): fork of [WAMR](https://github.com/bytecodealliance/wasm-micro-runtime) adding per-module opcode tracking during interpreted execution
@@ -23,7 +30,7 @@ Silverline is composed of an [orchestrator](https://github.com/SilverLineFramewo
 
 - [runtime-micro](https://github.com/SilverLineFramework/runtime-micro): [Zephyr RTOS](https://www.zephyrproject.org/)-based WASM runtime for embedded devices.
 
-- [mosquitto-broker](https://github.com/SilverLineFramework/mosquitto-broker): fork of the [Eclipse Mosquitto Broker](https://github.com/eclipse/mosquitto) with added monitoring capabilities.
+### Programs
 
 - [benchmarks](https://github.com/SilverLineFramework/benchmarks): benchmarks and test cases for SilverLine
     - [rustpython](https://github.com/SilverLineFramework/rustpython): [RustPython](https://github.com/RustPython/RustPython) modified to use the SilverLine channels interface
