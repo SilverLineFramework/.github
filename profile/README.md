@@ -1,6 +1,6 @@
 # SilverLine
 
-**Stable documentation of the SilverLine Framework can be found in the [Wiki](https://github.com/SilverLineFramework/silverline/wiki).**
+**We are working on an initial Silverline public release. Please contact the [authors](mailto:silverline.framework@gmail.com?subject=[SilverlineFramework]%20Contact) for access to our source meantime.**
 
 ## Overview 
 
@@ -12,6 +12,8 @@ Figure 1 depicts the framework's scope: it spans off-perm cloud to an on-perm ed
 **Figure 1. Silverline Framework Scope**
 
 ## Silverline Code Repositories
+
+**We are working on an initial Silverline public release. Many of the repos mentioned below will be private. Please contact the [authors](mailto:silverline.framework@gmail.com?subject=[SilverlineFramework]%20Contact) for access to our source meantime.**
 
 Silverline is composed of an [orchestrator](https://github.com/SilverLineFramework/orchestrator) and runtimes for different platforms ([linux runtime](https://github.com/SilverLineFramework/runtime-linux), [the zephyr micro runtime](https://github.com/SilverLineFramework/runtime-micro) and a [browser runtime](https://github.com/SilverLineFramework/runtime-browser)). We also maintain/develop other components such as a [fork of a message broker](https://github.com/SilverLineFramework/mosquitto-broker), [messaging libraries](https://github.com/SilverLineFramework/paho.mqtt.c), [benchmarks](https://github.com/SilverLineFramework/benchmarks), among others.
 
